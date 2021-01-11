@@ -1,0 +1,20 @@
+launch ec2-instance
+# yum install httpd vim -y
+# dnf install wget -y
+#  yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+# yum -y install https://rpms.remirepo.net/enterprise/remi-release-8.rpm
+# dnf module install php:remi-7.4
+# dnf install php-mysqlnd
+# wget https://wordpress.org/latest.tar.gz
+# tar xf latest.tar.gz -C /var/www/html
+# systemctl status httpd
+# systemctl start httpd
+# systemctl enable httpd
+# yum install mysql -y
+launch RDS 
+# mysql -h "URL" -u "username" -p
+show databases;
+create databases "name";
+# systemctl restart httpd
+Now launch browser, enter ip and install wordpress
+you get your wordpress site!!!
